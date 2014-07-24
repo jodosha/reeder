@@ -23,3 +23,11 @@ task default: :spec
 5. Advanced RSpec configuration
 
 6. Add vcr, webmock, capybara gems
+
+### 02-fetch-feed
+
+1. Spec remote feed informations ( http://feeds.feedburner.com/newsyc100 )
+
+2. Spec fetch articles informations
+
+3. Spec valid URI
