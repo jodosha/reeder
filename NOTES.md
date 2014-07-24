@@ -31,3 +31,8 @@ task default: :spec
 2. Spec fetch articles informations
 
 3. Spec valid URI
+
+
+### 03-store-feed
+
+1. Move integration as feed unit test
