@@ -19,3 +19,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 task default: :spec
 ```
+
+5. Advanced RSpec configuration
+
+6. Add vcr, webmock, capybara gems
