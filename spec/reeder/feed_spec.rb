@@ -4,13 +4,13 @@ require 'reeder/feed'
 describe 'Fetch feed', :vcr do
   before do
     @url  = 'http://feeds.feedburner.com/newsyc100'
-    @feed = Reeder::Feed.new(@url)
+    @feed = Reeder::Feed.new(url: @url)
 
     @feed.fetch!
   end
 
   it "raises error when the given URL isn't valid" do
-    expect { Reeder::Feed.new('spec/spec_helper.rb').fetch! }.to raise_error(ArgumentError)
+    expect { Reeder::Feed.new(url: 'spec/spec_helper.rb').fetch! }.to raise_error(ArgumentError)
   end
 
   it 'fetches remote feed informations' do

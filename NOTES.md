@@ -35,4 +35,8 @@ task default: :spec
 
 ### 03-store-feed
 
-1. Move integration as feed unit test
+1. Move integration as feed unit test (spec/integration/fetch_feed_spec.rb => spec/feed_spec.rb)
+
+2. Setup Lotus::Model via a trivial test (stores feed informations)
+
+3. Test that a feed will only created once.

@@ -1,13 +1,11 @@
 require 'uri'
 require 'open-uri'
 require 'feedjira'
+require 'lotus/entity'
 
 class Reeder::Feed
-  attr_reader :url, :title, :articles
-
-  def initialize(url)
-    @url = url
-  end
+  include Lotus::Entity
+  self.attributes = :url, :title, :articles
 
   def fetch!
     result    = parse(fetch)

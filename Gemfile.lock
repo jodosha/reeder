@@ -1,8 +1,17 @@
+GIT
+  remote: git://github.com/lotus/model.git
+  revision: 546f2950e920dcba3932afb7812eef218d6c748d
+  specs:
+    lotus-model (0.1.2)
+      lotus-utils (~> 0.2)
+      sequel (~> 4.9)
+
 PATH
   remote: .
   specs:
     reeder (0.0.1)
       feedjira (~> 1)
+      lotus-model (~> 0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -16,7 +25,7 @@ GEM
       xpath (~> 2.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
-    curb (0.8.5)
+    curb (0.8.6)
     diff-lcs (1.2.5)
     feedjira (1.3.0)
       curb (~> 0.8.1)
@@ -24,6 +33,7 @@ GEM
       sax-machine (~> 0.2.1)
     loofah (2.0.0)
       nokogiri (>= 1.5.9)
+    lotus-utils (0.2.0)
     mime-types (2.3)
     mini_portile (0.6.0)
     nokogiri (1.6.3.1)
@@ -47,6 +57,7 @@ GEM
     safe_yaml (1.0.3)
     sax-machine (0.2.1)
       nokogiri (~> 1.6.0)
+    sequel (4.12.0)
     vcr (2.9.2)
     webmock (1.18.0)
       addressable (>= 2.3.6)
@@ -60,6 +71,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.6)
   capybara (~> 2)
+  lotus-model!
   rake (~> 10.0)
   reeder!
   rspec (~> 3)
