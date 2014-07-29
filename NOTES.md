@@ -34,7 +34,6 @@ task default: :spec
 
 3. Spec valid URI
 
-
 ### 03-store-feed
 
 1. Move integration as feed unit test (spec/integration/fetch_feed_spec.rb => spec/feed_spec.rb)
@@ -42,3 +41,11 @@ task default: :spec
 2. Setup Lotus::Model via a trivial test (stores feed informations)
 
 3. Test that a feed will only created once.
+
+### 04-store-articles
+
+1. Add tests to integration to check that the articles are persisted.
+
+2. Setup ArticleRepository
+
+3. Test that feed will created only once.
