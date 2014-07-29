@@ -49,3 +49,7 @@ task default: :spec
 2. Setup ArticleRepository
 
 3. Test that feed will created only once.
+
+### 05-update-feeds
+
+1. Extract Reeder.mapping
