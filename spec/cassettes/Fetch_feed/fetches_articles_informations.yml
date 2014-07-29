@@ -18,16 +18,16 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Last-Modified:
-      - Thu, 24 Jul 2014 16:06:07 GMT
-      Etag:
-      - pzDe+4eOsCh16vpqagSKsPZUBaE
       Content-Type:
       - text/xml; charset=ISO-8859-1
+      Etag:
+      - 4ks/mbvWSnURdlI9OvLWwRvQMkI
+      Last-Modified:
+      - Tue, 29 Jul 2014 16:01:38 GMT
       Date:
-      - Thu, 24 Jul 2014 16:06:07 GMT
+      - Tue, 29 Jul 2014 16:02:12 GMT
       Expires:
-      - Thu, 24 Jul 2014 16:06:07 GMT
+      - Tue, 29 Jul 2014 16:02:12 GMT
       Cache-Control:
       - private, max-age=0
       X-Content-Type-Options:
@@ -47,109 +47,106 @@ http_interactions:
         type=\"text/css\" media=\"screen\" href=\"http://feeds.feedburner.com/~d/styles/itemcontent.css\"?><rss
         xmlns:feedburner=\"http://rssnamespace.org/feedburner/ext/1.0\" version=\"2.0\"><channel><title>Hacker
         News 100</title><link>http://feeds.feedburner.com/newsyc100</link><description>Hacker
-        News stories as soon as they reach 100 points</description><lastBuildDate>Thu,
-        24 Jul 2014 09:03:01 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><atom10:link
+        News stories as soon as they reach 100 points</description><lastBuildDate>Tue,
+        29 Jul 2014 08:59:02 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><atom10:link
         xmlns:atom10=\"http://www.w3.org/2005/Atom\" rel=\"self\" type=\"application/rss+xml\"
         href=\"http://feeds.feedburner.com/newsyc100\" /><feedburner:info uri=\"newsyc100\"
         /><atom10:link xmlns:atom10=\"http://www.w3.org/2005/Atom\" rel=\"hub\" href=\"http://pubsubhubbub.appspot.com/\"
-        /><feedburner:browserFriendly></feedburner:browserFriendly><item><title>How
-        recursion got into programming: a comedy of errors (wordpress.com)</title><link>http://vanemden.wordpress.com/2014/06/18/how-recursion-got-into-programming-a-comedy-of-errors-3/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8073361\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8073361</comments><guid
-        isPermaLink=\"true\">http://vanemden.wordpress.com/2014/06/18/how-recursion-got-into-programming-a-comedy-of-errors-3/</guid><pubDate>Wed,
-        23 Jul 2014 06:20:02 GMT</pubDate></item><item><title>Why I'm Productive in
-        Clojure (yogthos.net)</title><link>http://yogthos.net/blog/49-Why+I%27m+Productive+in+Clojure</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074186\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074186</comments><guid
-        isPermaLink=\"true\">http://yogthos.net/blog/49-Why+I%27m+Productive+in+Clojure</guid><pubDate>Wed,
-        23 Jul 2014 06:30:02 GMT</pubDate></item><item><title>Hemingway App now available
-        (hemingwayapp.com)</title><link>http://www.hemingwayapp.com/Desktop.html</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074243\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074243</comments><guid
-        isPermaLink=\"true\">http://www.hemingwayapp.com/Desktop.html</guid><pubDate>Wed,
-        23 Jul 2014 07:00:02 GMT</pubDate></item><item><title>Open Name System: Extending
-        DNS with the Blockchain (opennamesystem.org)</title><link>http://opennamesystem.org</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074517\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074517</comments><guid
-        isPermaLink=\"true\">http://opennamesystem.org</guid><pubDate>Wed, 23 Jul
-        2014 07:30:01 GMT</pubDate></item><item><title>Just let me code (drdobbs.com)</title><link>http://www.drdobbs.com/tools/just-let-me-code/240168735</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074288\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074288</comments><guid
-        isPermaLink=\"true\">http://www.drdobbs.com/tools/just-let-me-code/240168735</guid><pubDate>Wed,
-        23 Jul 2014 07:30:02 GMT</pubDate></item><item><title>SpaceX Soft Lands Falcon
-        9 Rocket First Stage (spacex.com)</title><link>http://www.spacex.com/news/2014/07/22/spacex-soft-lands-falcon-9-rocket-first-stage</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8071070\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8071070</comments><guid
-        isPermaLink=\"true\">http://www.spacex.com/news/2014/07/22/spacex-soft-lands-falcon-9-rocket-first-stage</guid><pubDate>Wed,
-        23 Jul 2014 08:00:01 GMT</pubDate></item><item><title>Apple Confirms &#x201c;Back
-        Doors&#x201d;, Downplays Their Severity (zdziarski.com)</title><link>http://www.zdziarski.com/blog/?p=3466</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074654\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074654</comments><guid
-        isPermaLink=\"true\">http://www.zdziarski.com/blog/?p=3466</guid><pubDate>Wed,
-        23 Jul 2014 08:40:02 GMT</pubDate></item><item><title>Paletton &#x2013; Color
-        Scheme Designer (paletton.com)</title><link>http://www.paletton.com</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074694\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074694</comments><guid
-        isPermaLink=\"true\">http://www.paletton.com</guid><pubDate>Wed, 23 Jul 2014
-        08:50:02 GMT</pubDate></item><item><title>Tracking down a kernel bug with
-        git bisect (oddbit.com)</title><link>http://blog.oddbit.com/2014/07/21/tracking-down-a-kernel-bug-wit/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8074655\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8074655</comments><guid
-        isPermaLink=\"true\">http://blog.oddbit.com/2014/07/21/tracking-down-a-kernel-bug-wit/</guid><pubDate>Wed,
-        23 Jul 2014 09:00:02 GMT</pubDate></item><item><title>Show HN: Tiempo &#x2013;
-        The fastest way to track time and get paid (tiempoapp.com)</title><link>http://www.tiempoapp.com/invoices</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8075443\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8075443</comments><guid
-        isPermaLink=\"true\">http://www.tiempoapp.com/invoices</guid><pubDate>Wed,
-        23 Jul 2014 10:00:14 GMT</pubDate></item><item><title>Polygon sat down with
-        one of the creators of Dwarf Fortress (polygon.com)</title><link>http://www.polygon.com/2014/7/23/5926447/dwarf-fortress-will-crush-your-cpu-because-creating-history-is-hard</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8075534\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8075534</comments><guid
-        isPermaLink=\"true\">http://www.polygon.com/2014/7/23/5926447/dwarf-fortress-will-crush-your-cpu-because-creating-history-is-hard</guid><pubDate>Wed,
-        23 Jul 2014 10:50:02 GMT</pubDate></item><item><title>Firm Inefficiency (overcomingbias.com)</title><link>http://www.overcomingbias.com/2014/07/firm-inefficiency.html</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8075674\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8075674</comments><guid
-        isPermaLink=\"true\">http://www.overcomingbias.com/2014/07/firm-inefficiency.html</guid><pubDate>Wed,
-        23 Jul 2014 11:00:02 GMT</pubDate></item><item><title>The sad state of Linux
-        Wi-Fi (sesse.net)</title><link>http://blog.sesse.net/blog/tech/2014-07-23-12-28_the_sad_state_of_linux_wi-fi.html</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8075880\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8075880</comments><guid
-        isPermaLink=\"true\">http://blog.sesse.net/blog/tech/2014-07-23-12-28_the_sad_state_of_linux_wi-fi.html</guid><pubDate>Wed,
-        23 Jul 2014 11:20:02 GMT</pubDate></item><item><title>Rebuilding a broken
-        Gameboy with a Raspberry Pi (wordpress.com)</title><link>https://superpiboy.wordpress.com</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8075842\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8075842</comments><guid
-        isPermaLink=\"true\">https://superpiboy.wordpress.com</guid><pubDate>Wed,
-        23 Jul 2014 11:50:01 GMT</pubDate></item><item><title>Plasma physics: The
-        fusion upstarts (nature.com)</title><link>http://www.nature.com/news/plasma-physics-the-fusion-upstarts-1.15592</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8075926\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8075926</comments><guid
-        isPermaLink=\"true\">http://www.nature.com/news/plasma-physics-the-fusion-upstarts-1.15592</guid><pubDate>Wed,
-        23 Jul 2014 12:00:01 GMT</pubDate></item><item><title>The Secret Government
-        Rulebook For Labeling Someone a Terrorist (firstlook.org)</title><link>https://firstlook.org/theintercept/article/2014/07/23/blacklisted/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8076221\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8076221</comments><guid
-        isPermaLink=\"true\">https://firstlook.org/theintercept/article/2014/07/23/blacklisted/</guid><pubDate>Wed,
-        23 Jul 2014 12:50:02 GMT</pubDate></item><item><title>Sierra Leone's chief
-        Ebola doctor contracts the virus (reuters.com)</title><link>http://www.reuters.com/article/2014/07/23/ozatp-uk-health-ebola-africa-idAFKBN0FS10V20140723</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8077038\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8077038</comments><guid
-        isPermaLink=\"true\">http://www.reuters.com/article/2014/07/23/ozatp-uk-health-ebola-africa-idAFKBN0FS10V20140723</guid><pubDate>Wed,
-        23 Jul 2014 14:50:02 GMT</pubDate></item><item><title>A solar storm nearly
-        destroyed life as we know it two years ago (washingtonpost.com)</title><link>http://www.washingtonpost.com/blogs/capital-weather-gang/wp/2014/07/23/how-a-solar-storm-nearly-destroyed-life-as-we-know-it-two-years-ago</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8077727\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8077727</comments><guid
-        isPermaLink=\"true\">http://www.washingtonpost.com/blogs/capital-weather-gang/wp/2014/07/23/how-a-solar-storm-nearly-destroyed-life-as-we-know-it-two-years-ago</guid><pubDate>Wed,
-        23 Jul 2014 17:50:02 GMT</pubDate></item><item><title>Near Miss: The Solar
-        Superstorm of July 2012 (nasa.gov)</title><link>http://science.nasa.gov/science-news/science-at-nasa/2014/23jul_superstorm/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8077727\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8077727</comments><guid
-        isPermaLink=\"true\">http://science.nasa.gov/science-news/science-at-nasa/2014/23jul_superstorm/</guid><pubDate>Wed,
-        23 Jul 2014 18:00:02 GMT</pubDate></item><item><title>CSS One-Liners (alistapart.com)</title><link>http://alistapart.com/blog/post/ten-css-one-liners-to-replace-native-apps/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8078173\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8078173</comments><guid
-        isPermaLink=\"true\">http://alistapart.com/blog/post/ten-css-one-liners-to-replace-native-apps/</guid><pubDate>Wed,
-        23 Jul 2014 21:50:02 GMT</pubDate></item><item><title>India&#x2019;s Answer
-        to Google Glass: The Smartshoe (wsj.com)</title><link>http://blogs.wsj.com/indiarealtime/2014/07/24/indias-answer-to-google-glass-the-smartshoe/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8078634\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8078634</comments><guid
-        isPermaLink=\"true\">http://blogs.wsj.com/indiarealtime/2014/07/24/indias-answer-to-google-glass-the-smartshoe/</guid><pubDate>Thu,
-        24 Jul 2014 02:00:02 GMT</pubDate></item><item><title>Why blurring sensitive
-        information is a bad idea (dheera.net)</title><link>http://dheera.net/projects/blur</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8078747\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8078747</comments><guid
-        isPermaLink=\"true\">http://dheera.net/projects/blur</guid><pubDate>Thu, 24
-        Jul 2014 03:00:02 GMT</pubDate></item><item><title>Emails reveal close Google
-        relationship with NSA (aljazeera.com)</title><link>http://america.aljazeera.com/articles/2014/5/6/nsa-chief-google.html</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8078786\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8078786</comments><guid
-        isPermaLink=\"true\">http://america.aljazeera.com/articles/2014/5/6/nsa-chief-google.html</guid><pubDate>Thu,
-        24 Jul 2014 03:10:02 GMT</pubDate></item><item><title>GOG.com Now Supports
-        Linux (gog.com)</title><link>http://www.gog.com/news/gogcom_now_supports_linux</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8078857\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8078857</comments><guid
-        isPermaLink=\"true\">http://www.gog.com/news/gogcom_now_supports_linux</guid><pubDate>Thu,
-        24 Jul 2014 04:00:02 GMT</pubDate></item><item><title>Trello Spins Out of
-        Fog Creek With $10.3M Raised (wsj.com)</title><link>http://blogs.wsj.com/venturecapital/2014/07/24/digital-whiteboard-trello-spins-out-of-fog-creek-with-10-3m/</link><description>&lt;a
-        href=\"http://news.ycombinator.com/item?id=8079110\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8079110</comments><guid
-        isPermaLink=\"true\">http://blogs.wsj.com/venturecapital/2014/07/24/digital-whiteboard-trello-spins-out-of-fog-creek-with-10-3m/</guid><pubDate>Thu,
-        24 Jul 2014 06:00:02 GMT</pubDate></item></channel></rss>\r\n"
+        /><feedburner:browserFriendly></feedburner:browserFriendly><item><title>Dear
+        Instagram (bolt.co)</title><link>https://blog.bolt.co/2014/07/28/dear-instagram</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8096936\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8096936</comments><guid
+        isPermaLink=\"true\">https://blog.bolt.co/2014/07/28/dear-instagram</guid><pubDate>Mon,
+        28 Jul 2014 08:00:01 GMT</pubDate></item><item><title>Why cans of soup are
+        shaped the way they are (datagenetics.com)</title><link>http://www.datagenetics.com/blog/august12014/index.html</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097125\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097125</comments><guid
+        isPermaLink=\"true\">http://www.datagenetics.com/blog/august12014/index.html</guid><pubDate>Mon,
+        28 Jul 2014 08:20:02 GMT</pubDate></item><item><title>Nginx Tutorial: Developing
+        Modules (airpair.com)</title><link>http://www.airpair.com/nginx/extending-nginx-tutorial</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097317\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097317</comments><guid
+        isPermaLink=\"true\">http://www.airpair.com/nginx/extending-nginx-tutorial</guid><pubDate>Mon,
+        28 Jul 2014 08:40:01 GMT</pubDate></item><item><title>NPR One (npr.org)</title><link>http://www.npr.org/about/products/npr-one/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097020\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097020</comments><guid
+        isPermaLink=\"true\">http://www.npr.org/about/products/npr-one/</guid><pubDate>Mon,
+        28 Jul 2014 08:40:02 GMT</pubDate></item><item><title>We Experiment On Human
+        Beings (okcupid.com)</title><link>http://blog.okcupid.com/index.php/we-experiment-on-human-beings/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=we-experiment-on-human-beings</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097415\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097415</comments><guid
+        isPermaLink=\"true\">http://blog.okcupid.com/index.php/we-experiment-on-human-beings/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=we-experiment-on-human-beings</guid><pubDate>Mon,
+        28 Jul 2014 09:30:01 GMT</pubDate></item><item><title>Facebook Flux &#x2013;
+        Application Architecture for Building User Interfaces (github.com)</title><link>https://github.com/facebook/flux</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097776\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097776</comments><guid
+        isPermaLink=\"true\">https://github.com/facebook/flux</guid><pubDate>Mon,
+        28 Jul 2014 09:50:01 GMT</pubDate></item><item><title>Chris Beard Named CEO
+        of Mozilla (mozilla.org)</title><link>https://blog.mozilla.org/blog/2014/07/28/chris-beard-named-ceo-of-mozilla/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097570\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097570</comments><guid
+        isPermaLink=\"true\">https://blog.mozilla.org/blog/2014/07/28/chris-beard-named-ceo-of-mozilla/</guid><pubDate>Mon,
+        28 Jul 2014 10:00:02 GMT</pubDate></item><item><title>Instagram iOS session
+        hijack (github.com)</title><link>https://gist.github.com/stevegraham/9a98627eebd6b09d4483?hn</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8097827\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8097827</comments><guid
+        isPermaLink=\"true\">https://gist.github.com/stevegraham/9a98627eebd6b09d4483?hn</guid><pubDate>Mon,
+        28 Jul 2014 10:30:01 GMT</pubDate></item><item><title>The New GitHub Issues
+        (github.com)</title><link>https://github.com/blog/1866-the-new-github-issues</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8098028\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8098028</comments><guid
+        isPermaLink=\"true\">https://github.com/blog/1866-the-new-github-issues</guid><pubDate>Mon,
+        28 Jul 2014 10:50:02 GMT</pubDate></item><item><title>Tracking.js &#xff0d;
+        A modern approach for computer vision on the web (trackingjs.com)</title><link>http://trackingjs.com/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8098238\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8098238</comments><guid
+        isPermaLink=\"true\">http://trackingjs.com/</guid><pubDate>Mon, 28 Jul 2014
+        11:00:02 GMT</pubDate></item><item><title>Terraform (hashicorp.com)</title><link>http://www.hashicorp.com/blog/terraform.html</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8098496\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8098496</comments><guid
+        isPermaLink=\"true\">http://www.hashicorp.com/blog/terraform.html</guid><pubDate>Mon,
+        28 Jul 2014 11:50:01 GMT</pubDate></item><item><title>Black Swan Seed Rounds
+        (samaltman.com)</title><link>http://blog.samaltman.com/black-swan-seed-rounds</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8098438\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8098438</comments><guid
+        isPermaLink=\"true\">http://blog.samaltman.com/black-swan-seed-rounds</guid><pubDate>Mon,
+        28 Jul 2014 12:10:01 GMT</pubDate></item><item><title>The Financial Side of
+        Building Mac Apps (tyler.io)</title><link>http://tyler.io/2014/07/a-candid-look-at-the-financial-side-of-building-mac-apps-on-your-own/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8098908\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8098908</comments><guid
+        isPermaLink=\"true\">http://tyler.io/2014/07/a-candid-look-at-the-financial-side-of-building-mac-apps-on-your-own/</guid><pubDate>Mon,
+        28 Jul 2014 13:20:02 GMT</pubDate></item><item><title>Atlantropa (wikipedia.org)</title><link>https://en.wikipedia.org/wiki/Atlantropa</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8099038\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8099038</comments><guid
+        isPermaLink=\"true\">https://en.wikipedia.org/wiki/Atlantropa</guid><pubDate>Mon,
+        28 Jul 2014 13:40:02 GMT</pubDate></item><item><title>Reintroducing FFmpeg
+        to Debian (debian.org)</title><link>https://lists.debian.org/debian-devel/2014/07/msg01010.html</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8099003\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8099003</comments><guid
+        isPermaLink=\"true\">https://lists.debian.org/debian-devel/2014/07/msg01010.html</guid><pubDate>Mon,
+        28 Jul 2014 14:00:02 GMT</pubDate></item><item><title>YoAuth (herokuapp.com)</title><link>http://yoauth.herokuapp.com/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8099169\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8099169</comments><guid
+        isPermaLink=\"true\">http://yoauth.herokuapp.com/</guid><pubDate>Mon, 28 Jul
+        2014 14:10:01 GMT</pubDate></item><item><title>How to take over the computer
+        of a Maven Central user (ontoillogical.com)</title><link>http://blog.ontoillogical.com/blog/2014/07/28/how-to-take-over-any-java-developer/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8099713\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8099713</comments><guid
+        isPermaLink=\"true\">http://blog.ontoillogical.com/blog/2014/07/28/how-to-take-over-any-java-developer/</guid><pubDate>Mon,
+        28 Jul 2014 15:50:01 GMT</pubDate></item><item><title>BitcoinJS (bitcoinjs.org)</title><link>http://bitcoinjs.org/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8099866\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8099866</comments><guid
+        isPermaLink=\"true\">http://bitcoinjs.org/</guid><pubDate>Mon, 28 Jul 2014
+        16:50:01 GMT</pubDate></item><item><title>App Rot (marco.org)</title><link>http://www.marco.org/2014/07/28/app-rot</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8100521\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8100521</comments><guid
+        isPermaLink=\"true\">http://www.marco.org/2014/07/28/app-rot</guid><pubDate>Mon,
+        28 Jul 2014 20:30:02 GMT</pubDate></item><item><title>Steel worker reveals
+        blocking view of U.S. aircraft on day of atomic bombing (mainichi.jp)</title><link>http://mainichi.jp/english/english/features/news/20140726p2a00m0na014000c.html</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8100579\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8100579</comments><guid
+        isPermaLink=\"true\">http://mainichi.jp/english/english/features/news/20140726p2a00m0na014000c.html</guid><pubDate>Mon,
+        28 Jul 2014 20:50:01 GMT</pubDate></item><item><title>Total darkness at night
+        key to success of breast cancer therapy (sciencedaily.com)</title><link>http://www.sciencedaily.com/releases/2014/07/140725080408.htm</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8100596\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8100596</comments><guid
+        isPermaLink=\"true\">http://www.sciencedaily.com/releases/2014/07/140725080408.htm</guid><pubDate>Mon,
+        28 Jul 2014 21:50:01 GMT</pubDate></item><item><title>The seL4 microkernel
+        (github.com)</title><link>https://github.com/seL4/seL4</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8100983\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8100983</comments><guid
+        isPermaLink=\"true\">https://github.com/seL4/seL4</guid><pubDate>Mon, 28 Jul
+        2014 23:50:01 GMT</pubDate></item><item><title>&#x201c;Happy Birthday&#x201d;
+        is not in copyright (boingboing.net)</title><link>http://boingboing.net/2013/06/13/lawsuit-happy-birthday-is.html</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8101653\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8101653</comments><guid
+        isPermaLink=\"true\">http://boingboing.net/2013/06/13/lawsuit-happy-birthday-is.html</guid><pubDate>Tue,
+        29 Jul 2014 04:27:02 GMT</pubDate></item><item><title>How a bug in Dropbox
+        permanently deleted my 8000 photos (medium.com)</title><link>https://medium.com/@jan.curn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8101579\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8101579</comments><guid
+        isPermaLink=\"true\">https://medium.com/@jan.curn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b</guid><pubDate>Tue,
+        29 Jul 2014 04:50:01 GMT</pubDate></item><item><title>Google Startup Launch
+        (google.com)</title><link>https://developers.google.com/startups/</link><description>&lt;a
+        href=\"http://news.ycombinator.com/item?id=8101578\"&gt;Comments&lt;/a&gt;</description><comments>http://news.ycombinator.com/item?id=8101578</comments><guid
+        isPermaLink=\"true\">https://developers.google.com/startups/</guid><pubDate>Tue,
+        29 Jul 2014 04:50:01 GMT</pubDate></item></channel></rss>\r\n"
     http_version: 
-  recorded_at: Thu, 24 Jul 2014 16:06:09 GMT
+  recorded_at: Tue, 29 Jul 2014 16:02:15 GMT
 recorded_with: VCR 2.9.2

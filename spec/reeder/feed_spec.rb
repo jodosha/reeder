@@ -22,8 +22,8 @@ describe 'Fetch feed', :vcr do
   it 'fetches articles informations' do
     article = @feed.articles.first
 
-    expect(article.title).to eq('How recursion got into programming: a comedy of errors (wordpress.com)')
-    expect(article.url).to   eq('http://vanemden.wordpress.com/2014/06/18/how-recursion-got-into-programming-a-comedy-of-errors-3/')
-    expect(article.id).to    eq('http://vanemden.wordpress.com/2014/06/18/how-recursion-got-into-programming-a-comedy-of-errors-3/')
+    expect(article.title).to eq('Dear Instagram (bolt.co)')
+    expect(article.url).to   eq('https://blog.bolt.co/2014/07/28/dear-instagram')
+    expect(article.id).to    eq('https://blog.bolt.co/2014/07/28/dear-instagram')
   end
 end

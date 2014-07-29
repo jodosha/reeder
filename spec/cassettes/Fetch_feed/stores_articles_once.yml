@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 29 Jul 2014 16:02:15 GMT
+      - Tue, 29 Jul 2014 20:32:43 GMT
       Server:
       - Apache/2.2.22 (Ubuntu)
       X-Powered-By:
@@ -4016,7 +4016,7 @@ http_interactions:
         Y2hlZCBwYWdlIGdlbmVyYXRlZCBieSBXUC1TdXBlci1DYWNoZSBvbiAyMDE0
         LTA3LTI5IDA4OjE0OjU1IC0tPgo=
     http_version: 
-  recorded_at: Tue, 29 Jul 2014 16:02:17 GMT
+  recorded_at: Tue, 29 Jul 2014 20:32:45 GMT
 - request:
     method: get
     uri: http://thechangelog.com/feed/
@@ -4036,7 +4036,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 29 Jul 2014 16:02:15 GMT
+      - Tue, 29 Jul 2014 20:32:44 GMT
       Server:
       - Apache/2.2.22 (Ubuntu)
       X-Powered-By:
@@ -8033,5 +8033,5 @@ http_interactions:
         Y2hlZCBwYWdlIGdlbmVyYXRlZCBieSBXUC1TdXBlci1DYWNoZSBvbiAyMDE0
         LTA3LTI5IDA4OjE0OjU1IC0tPgo=
     http_version: 
-  recorded_at: Tue, 29 Jul 2014 16:02:18 GMT
+  recorded_at: Tue, 29 Jul 2014 20:32:46 GMT
 recorded_with: VCR 2.9.2

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 29 Jul 2014 16:02:16 GMT
+      - Tue, 29 Jul 2014 16:02:14 GMT
       Server:
       - Apache/2.2.22 (Ubuntu)
       X-Powered-By:
@@ -4016,5 +4016,5 @@ http_interactions:
         Y2hlZCBwYWdlIGdlbmVyYXRlZCBieSBXUC1TdXBlci1DYWNoZSBvbiAyMDE0
         LTA3LTI5IDA4OjE0OjU1IC0tPgo=
     http_version: 
-  recorded_at: Tue, 29 Jul 2014 16:02:18 GMT
+  recorded_at: Tue, 29 Jul 2014 16:02:16 GMT
 recorded_with: VCR 2.9.2
