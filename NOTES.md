@@ -10,7 +10,9 @@
 
 3. Remove `--warnings` from `.rspec`
 
-4. Add the following lines to `Rakefile`
+4. Comment RSpec profiling
+
+5. Add the following lines to `Rakefile`
 
 ```ruby
 require 'rspec/core/rake_task'
@@ -20,9 +22,9 @@ RSpec::Core::RakeTask.new(:spec)
 task default: :spec
 ```
 
-5. Advanced RSpec configuration
+6. Advanced RSpec configuration
 
-6. Add vcr, webmock, capybara gems
+7. Add vcr, webmock, capybara gems
 
 ### 02-fetch-feed
 
