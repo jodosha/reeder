@@ -11,6 +11,7 @@ module Reeder
 
       load_paths << [
         'controllers',
+        'presenters',
         'views'
       ]
 

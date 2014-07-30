@@ -1,9 +1,11 @@
+<% article = Reeder::ArticlePresenter.new(self.article) %>
+
 <section class="post" id="article-<%= article.id %>">
   <header class="post-header">
     <h2 class="post-title"><%= article.title %></h2>
 
     <p class="post-meta">
-      By <em><%= article.author || article.feed.title %></em> in <span class="post-category post-category-js"><%= article.feed.title %></span>
+      By <em><%= article.author_name %></em> in <span class="post-category post-category-js"><%= article.feed_title %></span>
     </p>
   </header>
 
