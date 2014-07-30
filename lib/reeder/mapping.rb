@@ -3,7 +3,7 @@ require 'reeder/feed'
 require 'reeder/article'
 require 'reeder/repositories/feed_repository'
 require 'reeder/repositories/article_repository'
-require 'lotus/model/adapters/memory_adapter'
+require 'lotus/model/adapters/sql_adapter'
 
 module Reeder
   @@mapping = Lotus::Model::Mapper.new do
@@ -33,7 +33,8 @@ module Reeder
   end
 
   def self.load!
-    adapter = Lotus::Model::Adapters::MemoryAdapter.new(mapping)
+    ENV['DATABASE_URL'] ||= "sqlite://db/reeder-#{ ENV['LOTUS_ENV'] }.db"
+    adapter = Lotus::Model::Adapters::SqlAdapter.new(mapping, ENV['DATABASE_URL'])
 
     Reeder::Repositories::FeedRepository.adapter    = adapter
     Reeder::Repositories::ArticleRepository.adapter = adapter

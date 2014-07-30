@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'feedjira',    '~> 1'
+  spec.add_dependency 'sqlite3',     '~> 1.3'
   spec.add_dependency 'lotus-model', '~> 0.1'
   spec.add_dependency 'lotusrb',     '~> 0.1'
 

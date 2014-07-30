@@ -1,3 +1,6 @@
+require 'reeder/migrator'
+
+Reeder::Migrator.migrate!
 Reeder.load!
 
 Reeder::Repositories::FeedRepository.class_eval do

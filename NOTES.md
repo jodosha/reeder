@@ -79,3 +79,4 @@ task default: :spec
 
 1. Introduce Reeder.load! (works with mapping)
 
+2. Introduce Reeder::Migrator

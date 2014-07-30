@@ -27,9 +27,9 @@ describe 'Fetch feed', :vcr do
     article = Reeder::Repositories::ArticleRepository.last_by_feed(feed)
 
     expect(article.feed_id).to eq(feed.id)
-    expect(article.title).to   eq('Can your favorite programming language score a g()(‘al’)?')
-    expect(article.url).to     eq('http://thechangelog.com/can-your-favorite-programming-language-score-a-goal/?utm_source=rss&utm_medium=rss&utm_campaign=can-your-favorite-programming-language-score-a-goal')
-    expect(article.guid).to    eq('http://thechangelog.com/?p=9288')
+    expect(article.title).to_not be_nil
+    expect(article.url).to_not   be_nil
+    expect(article.guid).to_not  be_nil
   end
 
   it 'stores articles once' do
