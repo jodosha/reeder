@@ -1,1 +1,13 @@
-yo
+<div id="feeds">
+  <% feeds.each do |feed| %>
+    <h3><%= feed.title %></h3>
+  <% end %>
+</div>
+
+<div id="articles">
+  <% articles.each do |article| %>
+    <div id="article-<%= article.id %>">
+      <h2><%= article.title %></h2>
+    </div>
+  <% end %>
+</div>

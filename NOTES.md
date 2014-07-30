@@ -66,3 +66,11 @@ task default: :spec
 
 ### 06-setup-lotus
   require_relative '../../web/application'
+
+### 07-read-articles
+
+1. Setup VCR (again)
+
+2. Show feed titles on the home page sidebar
+
+3. Show last 10 articles
