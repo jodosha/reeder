@@ -14,7 +14,7 @@ module Reeder::Commands
     end
 
     def fetch(feed)
-      Fetch.new(feed.url).run
+      Fetch.new(feed).run
     end
   end
 end

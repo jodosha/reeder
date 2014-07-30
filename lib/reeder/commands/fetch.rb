@@ -5,8 +5,8 @@ require 'reeder/repositories/article_repository'
 
 module Reeder::Commands
   class Fetch
-    def initialize(url)
-      @url = url
+    def initialize(feed_or_url)
+      @feed_or_url = feed_or_url
     end
 
     def run
@@ -15,9 +15,13 @@ module Reeder::Commands
 
     private
     def fetch
-      Reeder::Feed.new(url: @url).tap do |feed|
-        feed.fetch!
+      feed.tap do |f|
+        f.fetch!
       end
+    end
+
+    def feed
+      Reeder::Feed.fabricate(@feed_or_url)
     end
 
     def persist(feed)

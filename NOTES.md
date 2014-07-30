@@ -60,3 +60,6 @@ task default: :spec
 3. Integration test: Update feeds ( spec/integration/update_feeds_spec.rb )
   feed_50  = Reeder::Feed.new(url: 'http://feeds.feedburner.com/newsyc50'),
   feed_500 = Reeder::Feed.new(url: 'http://feeds.feedburner.com/newsyc500')
+
+4. Allow Fetch to accept both feed or url
+  Reeder::Feed.fabricate

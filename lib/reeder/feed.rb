@@ -7,6 +7,14 @@ class Reeder::Feed
   include Lotus::Entity
   self.attributes = :url, :title, :articles
 
+  def self.fabricate(arg)
+    case arg
+    when self then arg
+    else
+      new(url: arg)
+    end
+  end
+
   def fetch!
     result    = parse(fetch)
     @title    = result.title
