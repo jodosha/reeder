@@ -15,7 +15,9 @@ module Reeder
       ]
 
       layout    :application
+
       templates 'templates'
+      assets    'public'
     end
   end
 end

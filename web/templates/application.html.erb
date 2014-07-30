@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple feed reader built with Lotus">
+
     <title>Reeder</title>
+
+    <link rel="stylesheet" href="/stylesheets/pure-min.css">
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="/stylesheets/grids-responsive-old-ie-min.css">
+    <![endif]-->
+
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="/stylesheets/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="/stylesheets/reeder-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="/stylesheets/reeder.css">
+    <!--<![endif]-->
   </head>
   <body>
-    <%= yield %>
+    <div id="layout" class="pure-g">
+      <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+          <hgroup>
+          <h1 class="brand-title">Reeder</h1>
+          <h2 class="brand-tagline">A simple feed reader build with Lotus</h2>
+          </hgroup>
+
+          <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+            <a class="pure-button" href="http://lotusrb.org">Lotus</a>
+            </li>
+            <li class="nav-item">
+            <a class="pure-button" href="https://github.com/jodosha/reeder">Fork me</a>
+            </li>
+          </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+          <%= yield %>
+        </div>
+
+          <div class="footer">
+            <div class="pure-menu pure-menu-horizontal pure-menu-open">
+              <ul>
+                <li><a href="http://lucaguidi.com">About</a></li>
+                <li><a href="https://twitter.com/jodosha">Twitter</a></li>
+                <li><a href="https://github.com/jodosha/reeder">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
-
