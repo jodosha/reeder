@@ -27,9 +27,11 @@ describe 'Fetch feed', :vcr do
     article = Reeder::Repositories::ArticleRepository.last_by_feed(feed)
 
     expect(article.feed_id).to eq(feed.id)
-    expect(article.title).to_not be_nil
-    expect(article.url).to_not   be_nil
-    expect(article.guid).to_not  be_nil
+    expect(article.title).to_not   be_nil
+    expect(article.url).to_not     be_nil
+    expect(article.guid).to_not    be_nil
+    expect(article.author).to_not  be_nil
+    expect(article.summary).to_not be_nil
   end
 
   it 'stores articles once' do

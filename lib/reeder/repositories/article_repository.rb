@@ -14,9 +14,9 @@ module Reeder::Repositories
     end
 
     def self.most_recent(limit = 10)
-      query do
+      preload_feeds query {
         desc(:id).limit(limit)
-      end
+      }
     end
 
     private
@@ -25,6 +25,13 @@ module Reeder::Repositories
         where(guid: guid).
           limit(1)
       end.first
+    end
+
+    def self.preload_feeds(articles)
+      articles.map do |article|
+        article.feed = FeedRepository.find(article.feed_id)
+        article
+      end
     end
   end
 end

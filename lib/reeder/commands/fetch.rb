@@ -41,7 +41,9 @@ module Reeder::Commands
             feed_id: feed.id,
             guid:    article.id,
             url:     article.url,
-            title:   article.title
+            title:   article.title,
+            author:  article.author,
+            summary: article.summary
           )
         )
       end

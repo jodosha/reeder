@@ -21,10 +21,6 @@ feature 'Visit Home', :vcr do
 
     expect(page).to have_title('Reeder')
 
-    within '#feeds' do
-      expect(page).to have_content('RubyFlow')
-    end
-
     within '#articles' do
       within "#article-#{ @article.id }" do
         expect(page).to have_content(@article.title)
