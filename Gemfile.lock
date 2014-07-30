@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/lotus/lotus.git
+  revision: 11ce2b3e9e6483ed97fa8a9ac7a5db15ba662234
+  specs:
+    lotusrb (0.1.0)
+      lotus-controller (~> 0.2)
+      lotus-router (~> 0.1, >= 0.1.1)
+      lotus-utils (~> 0.2)
+      lotus-view (~> 0.2)
+      thor (= 0.19.1)
+
+GIT
   remote: git://github.com/lotus/model.git
   revision: 546f2950e920dcba3932afb7812eef218d6c748d
   specs:
@@ -12,6 +23,7 @@ PATH
     reeder (0.0.1)
       feedjira (~> 1)
       lotus-model (~> 0.1)
+      lotusrb (~> 0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -31,9 +43,21 @@ GEM
       curb (~> 0.8.1)
       loofah (~> 2.0.0)
       sax-machine (~> 0.2.1)
+    http_router (0.11.1)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
     loofah (2.0.0)
       nokogiri (>= 1.5.9)
+    lotus-controller (0.2.0)
+      lotus-utils (~> 0.2)
+      rack (~> 1.5)
+    lotus-router (0.1.1)
+      http_router (~> 0)
+      lotus-utils (~> 0)
     lotus-utils (0.2.0)
+    lotus-view (0.2.0)
+      lotus-utils (~> 0.2)
+      tilt (~> 2.0, >= 2.0.1)
     mime-types (2.3)
     mini_portile (0.6.0)
     nokogiri (1.6.3.1)
@@ -58,6 +82,10 @@ GEM
     sax-machine (0.2.1)
       nokogiri (~> 1.6.0)
     sequel (4.12.0)
+    thor (0.19.1)
+    tilt (2.0.1)
+    url_mount (0.2.1)
+      rack
     vcr (2.9.2)
     webmock (1.18.0)
       addressable (>= 2.3.6)
@@ -72,6 +100,7 @@ DEPENDENCIES
   bundler (~> 1.6)
   capybara (~> 2)
   lotus-model!
+  lotusrb!
   rake (~> 10.0)
   reeder!
   rspec (~> 3)

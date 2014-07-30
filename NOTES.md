@@ -63,3 +63,6 @@ task default: :spec
 
 4. Allow Fetch to accept both feed or url
   Reeder::Feed.fabricate
+
+### 06-setup-lotus
+  require_relative '../../web/application'
