@@ -88,3 +88,9 @@ task default: :spec
 1. Duplicate .env
 
 2. Migration task
+
+3. Seed task
+
+4. config/environment.rb
+
+5. config.ru
