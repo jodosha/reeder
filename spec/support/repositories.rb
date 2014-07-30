@@ -1,9 +1,7 @@
-require 'lotus/model/adapters/memory_adapter'
-adapter = Lotus::Model::Adapters::MemoryAdapter.new(Reeder.mapping)
+require 'reeder/migrator'
 
-Reeder::Repositories::FeedRepository.adapter    = adapter
-Reeder::Repositories::ArticleRepository.adapter = adapter
-Reeder.mapping.load!
+Reeder::Migrator.migrate!
+Reeder.load!
 
 Reeder::Repositories::FeedRepository.class_eval do
   def self.count_by_url(url)

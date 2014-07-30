@@ -18,12 +18,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'feedjira',    '~> 1'
-  spec.add_dependency 'lotus-model', '~> 0.1'
-  spec.add_dependency 'lotusrb',     '~> 0.1'
+  spec.add_dependency 'dotenv-deployment', '~> 0'
+  spec.add_dependency 'feedjira',          '~> 1'
+  spec.add_dependency 'sqlite3',           '~> 1.3'
+  spec.add_dependency 'lotus-model',       '~> 0.1'
+  spec.add_dependency 'lotusrb',           '~> 0.1'
 
   spec.add_development_dependency 'bundler',  '~> 1.6'
   spec.add_development_dependency 'rake',     '~> 10.0'
+  spec.add_development_dependency 'dotenv',   '~> 0'
   spec.add_development_dependency 'rspec',    '~> 3'
   spec.add_development_dependency 'vcr',      '~> 2.7'
   spec.add_development_dependency 'webmock',  '~> 1'
