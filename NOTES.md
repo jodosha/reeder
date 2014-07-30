@@ -49,3 +49,17 @@ task default: :spec
 2. Setup ArticleRepository
 
 3. Test that feed will created only once.
+
+### 05-update-feeds
+
+1. Extract Reeder.mapping
+
+2. Extract everything under spec/support
+  Dir[__dir__ + '/support/**/*.rb'].each {|f| require f }
+
+3. Integration test: Update feeds ( spec/integration/update_feeds_spec.rb )
+  feed_50  = Reeder::Feed.new(url: 'http://feeds.feedburner.com/newsyc50'),
+  feed_500 = Reeder::Feed.new(url: 'http://feeds.feedburner.com/newsyc500')
+
+4. Allow Fetch to accept both feed or url
+  Reeder::Feed.fabricate

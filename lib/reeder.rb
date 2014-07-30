@@ -1,5 +1,5 @@
-require "reeder/version"
+require 'reeder/version'
+require 'reeder/mapping'
 
 module Reeder
-  # Your code goes here...
 end
