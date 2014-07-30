@@ -72,3 +72,5 @@ task default: :spec
 1. Setup VCR (again)
 
 2. Show feed titles on the home page sidebar
+
+3. Show last 10 articles

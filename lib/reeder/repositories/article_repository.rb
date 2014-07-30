@@ -13,6 +13,12 @@ module Reeder::Repositories
       end
     end
 
+    def self.most_recent(limit = 10)
+      query do
+        desc(:id).limit(limit)
+      end
+    end
+
     private
     def self.by_guid(guid)
       query do

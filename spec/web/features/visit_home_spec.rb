@@ -12,7 +12,8 @@ feature 'Visit Home', :vcr do
 
     Reeder::Commands::Update.new.run
 
-    @feed = repository.by_url(url)
+    @feed    = repository.by_url(url)
+    @article = Reeder::Repositories::ArticleRepository.last
   end
 
   scenario 'User sees articles' do
@@ -22,6 +23,12 @@ feature 'Visit Home', :vcr do
 
     within '#feeds' do
       expect(page).to have_content('RubyFlow')
+    end
+
+    within '#articles' do
+      within "#article-#{ @article.id }" do
+        expect(page).to have_content(@article.title)
+      end
     end
   end
 end
