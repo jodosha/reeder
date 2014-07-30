@@ -53,3 +53,6 @@ task default: :spec
 ### 05-update-feeds
 
 1. Extract Reeder.mapping
+
+2. Extract everything under spec/support
+  Dir[__dir__ + '/support/**/*.rb'].each {|f| require f }
