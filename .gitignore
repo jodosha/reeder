@@ -1,2 +1,2 @@
 .greenbar
-db/reeder-test.db
+db/*.db

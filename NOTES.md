@@ -82,3 +82,15 @@ task default: :spec
 2. Introduce Reeder::Migrator
 
 3. Introduce dotenv-deployment
+
+### 09-server
+
+1. Duplicate .env
+
+2. Migration task
+
+3. Seed task
+
+4. config/environment.rb
+
+5. config.ru
