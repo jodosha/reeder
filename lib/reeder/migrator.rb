@@ -17,6 +17,8 @@ module Reeder
         String  :guid
         String  :url
         String  :title
+        String  :author
+        String  :summary
       end
     end
   end

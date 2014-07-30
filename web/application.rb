@@ -11,11 +11,14 @@ module Reeder
 
       load_paths << [
         'controllers',
+        'presenters',
         'views'
       ]
 
       layout    :application
+
       templates 'templates'
+      assets    'public'
     end
   end
 end

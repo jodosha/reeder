@@ -94,3 +94,15 @@ task default: :spec
 4. config/environment.rb
 
 5. config.ru
+
+### 10-ui
+
+1. Copy application template
+
+2. Install stylesheets
+
+3. Template for article
+
+4. Extract partial
+
+5. Use presenter

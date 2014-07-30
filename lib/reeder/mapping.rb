@@ -20,11 +20,13 @@ module Reeder
       entity     Reeder::Article
       repository Reeder::Repositories::ArticleRepository
 
-      attribute :id,      Integer
-      attribute :feed_id, Integer
-      attribute :guid,    String
-      attribute :url,     String
-      attribute :title,   String
+      attribute :id,       Integer
+      attribute :feed_id,  Integer
+      attribute :guid,     String
+      attribute :url,      String
+      attribute :title,    String
+      attribute :author,   String
+      attribute :summary,  String
     end
   end
 

@@ -1,13 +1,7 @@
-<div id="feeds">
-  <% feeds.each do |feed| %>
-    <h3><%= feed.title %></h3>
-  <% end %>
-</div>
+<div id="articles" class="posts">
+  <h1 class="content-subhead">Recent Posts</h1>
 
-<div id="articles">
   <% articles.each do |article| %>
-    <div id="article-<%= article.id %>">
-      <h2><%= article.title %></h2>
-    </div>
+    <%= render partial: 'home/article', locals: { article: article } %>
   <% end %>
 </div>
