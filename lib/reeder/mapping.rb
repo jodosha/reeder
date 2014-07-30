@@ -33,7 +33,6 @@ module Reeder
   end
 
   def self.load!
-    ENV['DATABASE_URL'] ||= "sqlite://db/reeder-#{ ENV['LOTUS_ENV'] }.db"
     adapter = Lotus::Model::Adapters::SqlAdapter.new(mapping, ENV['DATABASE_URL'])
 
     Reeder::Repositories::FeedRepository.adapter    = adapter

@@ -1,7 +1,8 @@
-ENV['LOTUS_ENV'] ||= 'test'
+ENV['RACK_ENV'] = ENV['LOTUS_ENV'] ||= 'test'
 
 require 'rubygems'
 require 'bundler/setup'
+require 'dotenv/deployment'
 require 'capybara'
 require 'capybara/rspec'
 require 'webmock'

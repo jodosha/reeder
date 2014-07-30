@@ -3,7 +3,6 @@ require 'sequel'
 module Reeder
   class Migrator
     def self.migrate!
-      ENV['DATABASE_URL'] ||= "sqlite://db/reeder-#{ ENV['LOTUS_ENV'] }.db"
       db = Sequel.connect(ENV['DATABASE_URL'])
 
       db.create_table! :feeds do
