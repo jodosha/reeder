@@ -89,9 +89,7 @@ RSpec.configure do |config|
     Regexp.compile(parts.join('[\\\/]') + '[\\\/]')
   end
 
-  config.include RSpec::FeatureExampleGroup, type: :feature, example_group: {
-    file_path: config.escaped_path(%w[spec web features])
-  }
+  config.include RSpec::FeatureExampleGroup, type: :feature, file_path: config.escaped_path(%w[spec web features])
 
   config.include Capybara::DSL,           feature: true
   config.include Capybara::RSpecMatchers, feature: true
