@@ -1,32 +1,36 @@
-require 'lotus/model/mapper'
-require 'reeder/feed'
-require 'reeder/article'
+require 'lotus/model'
+require 'reeder/entities/feed'
+require 'reeder/entities/article'
 require 'reeder/repositories/feed_repository'
 require 'reeder/repositories/article_repository'
 require 'lotus/model/adapters/sql_adapter'
 
 module Reeder
-  @@mapping = Lotus::Model::Mapper.new do
-    collection :feeds do
-      entity     Reeder::Feed
-      repository Reeder::Repositories::FeedRepository
+  @@mapping = ::Lotus::Model.configure do
+    adapter type: :sql, uri: ENV['DATABASE_URL']
 
-      attribute :id,    Integer
-      attribute :url,   String
-      attribute :title, String
-    end
+    mapping do
+      collection :feeds do
+        entity     Reeder::Feed
+        repository Reeder::Repositories::FeedRepository
 
-    collection :articles do
-      entity     Reeder::Article
-      repository Reeder::Repositories::ArticleRepository
+        attribute :id,    Integer
+        attribute :url,   String
+        attribute :title, String
+      end
 
-      attribute :id,       Integer
-      attribute :feed_id,  Integer
-      attribute :guid,     String
-      attribute :url,      String
-      attribute :title,    String
-      attribute :author,   String
-      attribute :summary,  String
+      collection :articles do
+        entity     Reeder::Article
+        repository Reeder::Repositories::ArticleRepository
+
+        attribute :id,       Integer
+        attribute :feed_id,  Integer
+        attribute :guid,     String
+        attribute :url,      String
+        attribute :title,    String
+        attribute :author,   String
+        attribute :summary,  String
+      end
     end
   end
 
@@ -35,11 +39,6 @@ module Reeder
   end
 
   def self.load!
-    adapter = Lotus::Model::Adapters::SqlAdapter.new(mapping, ENV['DATABASE_URL'])
-
-    Reeder::Repositories::FeedRepository.adapter    = adapter
-    Reeder::Repositories::ArticleRepository.adapter = adapter
-
     mapping.load!
   end
 end

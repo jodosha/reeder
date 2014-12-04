@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'reeder/feed'
+require 'reeder/entities/feed'
 
 describe 'Fetch feed', :vcr do
   before do
