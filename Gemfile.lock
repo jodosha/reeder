@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/model.git
-  revision: a9e32323fe74f1632a90d68b052c9aaa840f4609
+  revision: 7c53a7dc7e6cd83fa1a948f251b72265bf8dc183
   specs:
     lotus-model (0.2.0.dev)
       lotus-utils (~> 0.3, >= 0.3.0.dev)
