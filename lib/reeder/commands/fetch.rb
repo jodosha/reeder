@@ -1,5 +1,5 @@
-require 'reeder/feed'
-require 'reeder/article'
+require 'reeder/entities/feed'
+require 'reeder/entities/article'
 require 'reeder/repositories/feed_repository'
 require 'reeder/repositories/article_repository'
 
