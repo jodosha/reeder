@@ -6,6 +6,11 @@ RSpec::Core::RakeTask.new(:spec)
 
 task default: :spec
 
+desc 'Application Console'
+task :console do
+  exec 'bundle exec lotus console --applications=web/application.rb'
+end
+
 namespace :db do
   task :migrate do
     require 'reeder/migrator'
