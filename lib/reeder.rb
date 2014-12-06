@@ -1,5 +1,5 @@
 require 'reeder/version'
-require 'reeder/mapper'
+require 'reeder/mapping'
 
 module Reeder
 end
