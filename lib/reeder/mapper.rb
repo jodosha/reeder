@@ -5,10 +5,12 @@ require 'reeder/repositories/feed_repository'
 require 'reeder/repositories/article_repository'
 require 'lotus/model/adapters/sql_adapter'
 
+
+ENV['DATABASE_URL'] ||= 'sqlite://db/reeder_development.db' # Quickfix
+
 module Reeder
   @@mapping = ::Lotus::Model.configure do
     adapter type: :sql, uri: ENV['DATABASE_URL']
-
     mapping 'lib/reeder/config/mapping'
   end
 
