@@ -1,9 +1,8 @@
 require 'reeder/migrator'
 
 Reeder::Migrator.migrate!
-Reeder.load!
 
-Reeder::Repositories::FeedRepository.class_eval do
+Reeder::FeedRepository.class_eval do
   def self.count_by_url(url)
     query do
       where(url: url)
@@ -11,7 +10,7 @@ Reeder::Repositories::FeedRepository.class_eval do
   end
 end
 
-Reeder::Repositories::ArticleRepository.class_eval do
+Reeder::ArticleRepository.class_eval do
   def self.last_by_feed(feed)
     query do
       where(feed_id: feed.id).

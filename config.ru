@@ -1,4 +1,7 @@
-require_relative './config/environment'
-require_relative './web/application'
+require_relative './config/applications'
 
-run Reeder::Web.new
+Reeder::Container = Lotus::Router.new {
+  mount Reeder::Web, at: '/'
+}
+
+run Reeder::Container

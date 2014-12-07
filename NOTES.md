@@ -77,7 +77,7 @@ task default: :spec
 
 ### 08-persistence
 
-1. Introduce Reeder.load! (works with mapping)
+1. Introduce Reeder::Model
 
 2. Introduce Reeder::Migrator
 

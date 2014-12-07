@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/lotus/controller.git
-  revision: 87eef1d25002d5ae711663293627c720f04b1ca8
+  revision: 975feb8788de34e1bc54011d0ac826b6152b1b11
   specs:
     lotus-controller (0.3.0.dev)
       lotus-utils (~> 0.3, >= 0.3.1.dev)
@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/model.git
-  revision: 55410e2f4234445eb3fa9e59385f54e6a75bf173
+  revision: f7368eaa8b5fd34d1db1e54681ffb42aaecb7c57
   specs:
     lotus-model (0.2.0.dev)
       lotus-utils (~> 0.3, >= 0.3.2.dev)
@@ -29,7 +29,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/router.git
-  revision: a7e482bad6cf6cd0a31cf0bf7b066bdf4a7245e6
+  revision: 4b9dc52e94315667d02345ebbe10c18a34052b75
   specs:
     lotus-router (0.2.0.dev)
       http_router (~> 0.11)
@@ -43,7 +43,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/view.git
-  revision: 9a1d730a271d26658e7b06d6a5b226d1040ebc68
+  revision: ce56fdbd9f0814354c4701313b807718288cc953
   specs:
     lotus-view (0.3.0.dev)
       lotus-utils (~> 0.3, >= 0.3.0.dev)
@@ -52,7 +52,7 @@ GIT
 PATH
   remote: .
   specs:
-    reeder (0.0.1)
+    reeder (0.0.2)
       dotenv-deployment (~> 0)
       feedjira (~> 1)
       lotus-model (~> 0.1)

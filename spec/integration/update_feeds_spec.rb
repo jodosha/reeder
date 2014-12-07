@@ -9,13 +9,13 @@ describe 'Update feeds', :vcr do
     ]
 
     feeds.each do |feed|
-      Reeder::Repositories::FeedRepository.persist(feed)
+      Reeder::FeedRepository.persist(feed)
     end
 
     Reeder::Commands::Update.new.run
 
-    @feed_50  = Reeder::Repositories::FeedRepository.by_url(feed_50.url)
-    @feed_500 = Reeder::Repositories::FeedRepository.by_url(feed_500.url)
+    @feed_50  = Reeder::FeedRepository.by_url(feed_50.url)
+    @feed_500 = Reeder::FeedRepository.by_url(feed_500.url)
   end
 
   it 'stores informations for feeds' do
@@ -25,7 +25,7 @@ describe 'Update feeds', :vcr do
 
   it 'stores articles for feeds' do
     [ @feed_50, @feed_500 ].each do |feed|
-      expect(Reeder::Repositories::ArticleRepository.last_by_feed(feed)).to_not be_nil
+      expect(Reeder::ArticleRepository.last_by_feed(feed)).to_not be_nil
     end
   end
 end

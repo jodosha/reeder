@@ -1,5 +1,5 @@
-require 'reeder/feed'
-require 'reeder/article'
+require 'reeder/entities/feed'
+require 'reeder/entities/article'
 require 'reeder/repositories/feed_repository'
 require 'reeder/repositories/article_repository'
 
@@ -31,12 +31,12 @@ module Reeder::Commands
     end
 
     def persist_feed(feed)
-      Reeder::Repositories::FeedRepository.persist(feed)
+      Reeder::FeedRepository.persist(feed)
     end
 
     def persist_articles(feed)
       feed.articles.each do |article|
-        Reeder::Repositories::ArticleRepository.persist(
+        Reeder::ArticleRepository.persist(
           Reeder::Article.new(
             feed_id: feed.id,
             guid:    article.id,

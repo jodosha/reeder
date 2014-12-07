@@ -1,4 +1,4 @@
-module Reeder::Views::Home
+module Reeder::Views::Articles
   class Index
     include Reeder::View
   end

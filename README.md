@@ -7,7 +7,7 @@ A simple feed reader built with [Lotus](http://lotusrb.org)
 ## Requirements
 
   * Ruby 2+ (with Bundler)
-  * Sqlite 3
+  * SQLite 3
 
 ## Setup
 
