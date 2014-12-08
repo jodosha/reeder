@@ -3,7 +3,7 @@ require 'spec_helper'
 feature 'Visit Home', :vcr do
   background do
     url = 'http://feeds2.feedburner.com/Rubyflow'
-    repository = Reeder::Repositories::FeedRepository
+    repository = Reeder::FeedRepository
     repository.clear
 
     repository.persist(
@@ -13,7 +13,7 @@ feature 'Visit Home', :vcr do
     Reeder::Commands::Update.new.run
 
     @feed    = repository.by_url(url)
-    @article = Reeder::Repositories::ArticleRepository.last
+    @article = Reeder::ArticleRepository.last
   end
 
   scenario 'User sees articles' do

@@ -1,4 +1,4 @@
-require_relative '../../web/application'
+require_relative '../../apps/web/application'
 
 module RSpec
   module FeatureExampleGroup

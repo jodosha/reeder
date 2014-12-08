@@ -1,5 +1,12 @@
-require 'reeder/version'
-require 'reeder/mapping'
+$:.unshift 'lib'
+require 'lotus/model'
+require 'lotus/model/adapters/sql_adapter'
 
-module Reeder
-end
+require 'reeder/entities'
+require 'reeder/repositories'
+
+Lotus::Model.configure do
+  adapter type: :sql, uri: ENV['DATABASE_URL']
+
+  mapping "#{__dir__}/reeder/config/mapping"
+end.load!

@@ -10,7 +10,7 @@ module Reeder::Commands
 
     private
     def feeds
-      Reeder::Repositories::FeedRepository.all
+      Reeder::FeedRepository.all
     end
 
     def fetch(feed)

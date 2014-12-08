@@ -5,9 +5,7 @@ module Reeder
     configure do
       root __dir__
 
-      routes do
-        get '/', to: 'home#index', as: :home
-      end
+      routes 'config/routes'
 
       load_paths << [
         'controllers',

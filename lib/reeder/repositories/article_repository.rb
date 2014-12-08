@@ -1,6 +1,6 @@
 require 'lotus/repository'
 
-module Reeder::Repositories
+module Reeder
   class ArticleRepository
     include Lotus::Repository
 
