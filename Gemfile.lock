@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/lotus.git
-  revision: f1cf529966661c6d911d8c3489cef7f31ec2e1ba
+  revision: 4acac2cb98ff01df869bc4b991afeb490dc2cc45
   specs:
     lotusrb (0.2.0.dev)
       lotus-controller (>= 0.3.0.dev)
@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/model.git
-  revision: 3066f4da44512515ffa40227ffabf3d9bc1ad781
+  revision: 50b66fb959854ec6c081c8c0b49efb7915bd83cf
   specs:
     lotus-model (0.2.0.dev)
       lotus-utils (~> 0.3, >= 0.3.2.dev)
