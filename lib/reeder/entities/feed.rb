@@ -6,7 +6,7 @@ require 'lotus/entity'
 module Reeder
   class Feed
     include Lotus::Entity
-    self.attributes = :url, :title, :articles
+    attributes :url, :title, :articles
 
     def self.fabricate(arg)
       case arg
