@@ -9,9 +9,10 @@ GIT
 
 GIT
   remote: git://github.com/lotus/lotus.git
-  revision: 4acac2cb98ff01df869bc4b991afeb490dc2cc45
+  revision: 06d10e056bafc751b6f33edc07110fcc2a4eded8
   specs:
     lotusrb (0.2.0.dev)
+      dotenv (~> 1.0)
       lotus-controller (>= 0.3.0.dev)
       lotus-model (>= 0.2.0.dev)
       lotus-router (>= 0.2.0.dev)
@@ -22,7 +23,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/model.git
-  revision: 50b66fb959854ec6c081c8c0b49efb7915bd83cf
+  revision: fa6f0aa4b0b9e09c2b036afcf1246e98ff5f62d4
   specs:
     lotus-model (0.2.0.dev)
       lotus-utils (~> 0.3, >= 0.3.2.dev)
@@ -74,9 +75,9 @@ GEM
       safe_yaml (~> 1.0.0)
     curb (0.8.6)
     diff-lcs (1.2.5)
-    dotenv (0.11.1)
-      dotenv-deployment (~> 0.0.2)
-    dotenv-deployment (0.0.2)
+    dotenv (1.0.2)
+    dotenv-deployment (0.2.0)
+      dotenv (~> 1.0)
     feedjira (1.5.0)
       curb (~> 0.8)
       loofah (~> 2.0)
@@ -131,7 +132,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.6)
   capybara (~> 2)
-  dotenv (~> 0)
+  dotenv (~> 1.0)
   lotus-controller!
   lotus-model!
   lotus-router!
