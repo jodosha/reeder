@@ -16,7 +16,11 @@ module Reeder
       layout    :application
 
       templates 'templates'
-      assets    'public'
+
+      serve_assets true
+      assets << [
+        'public'
+      ]
     end
   end
 end
