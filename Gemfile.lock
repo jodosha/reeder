@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/lotus.git
-  revision: 06d10e056bafc751b6f33edc07110fcc2a4eded8
+  revision: cebf6266517caca452ee87adcae0aefb7e0546ec
   specs:
     lotusrb (0.2.0.dev)
       dotenv (~> 1.0)
