@@ -2,7 +2,7 @@
 
 A simple feed reader built with [Hanami](http://hanamirb.org)
 
-![Screenshot](https://github.com/jodosha/reeder/blob/master/reeder.png)
+![Screenshot](https://github.com/jodosha/reeder/blob/master/screenshot.png)
 
 ## Requirements
 
