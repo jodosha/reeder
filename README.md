@@ -26,8 +26,8 @@ Install the required gems
 Run the tests
 
 ```shell
-% RACK_ENV=test bundle exec hanami db create
-% RACK_ENV=test bundle exec hanami db migrate
+% HANAMI_ENV=test bundle exec hanami db create
+% HANAMI_ENV=test bundle exec hanami db migrate
 % bundle exec rake spec
 ```
 
