@@ -1,11 +1,11 @@
 require 'uri'
 require 'open-uri'
 require 'feedjira'
-require 'lotus/entity'
+require 'hanami/entity'
 
 module Reeder
   class Feed
-    include Lotus::Entity
+    include Hanami::Entity
     attributes :url, :title, :articles
 
     def self.fabricate(arg)

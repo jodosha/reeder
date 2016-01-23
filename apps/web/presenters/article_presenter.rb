@@ -1,6 +1,6 @@
-module Reeder
+module Web
   class ArticlePresenter
-    include Lotus::Presenter
+    include Hanami::Presenter
 
     def author_name
       author || feed_title
@@ -10,8 +10,8 @@ module Reeder
       feed.title
     end
 
-#     def summary
-#       ::Rack::Utils.escape_html(super)
-#     end
+    def raw_summary
+      _raw(@object.summary)
+    end
   end
 end

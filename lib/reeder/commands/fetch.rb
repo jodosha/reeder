@@ -32,6 +32,7 @@ module Reeder::Commands
 
     def persist_feed(feed)
       Reeder::FeedRepository.persist(feed)
+      feed
     end
 
     def persist_articles(feed)

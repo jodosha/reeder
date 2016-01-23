@@ -1,6 +1,6 @@
 # Reeder
 
-A simple feed reader built with [Lotus](http://lotusrb.org)
+A simple feed reader built with [Hanami](http://hanamirb.org)
 
 ![Screenshot](https://github.com/jodosha/reeder/blob/master/reeder.png)
 
@@ -20,18 +20,27 @@ Clone the repository and cd
 Install the required gems
 
 ```shell
-% bundle
+% bundle install
 ```
 
 Run the tests
 
 ```shell
-% bundle exec rake
+% RACK_ENV=test bundle exec hanami db create
+% RACK_ENV=test bundle exec hanami db migrate
+% bundle exec rake spec
 ```
 
 ## Run
 
 Migrate and seed the database
+
+```shell
+% bundle exec hanami db create
+% bundle exec hanami db migrate
+```
+
+Fetch articles:
 
 ```shell
 % bundle exec rake db:seed
@@ -40,17 +49,12 @@ Migrate and seed the database
 Run the server and visit `http://localhost:3000`
 
 ```shell
-% bundle exec lotus server
+% bundle exec hanami server
 ```
 
 ## Explanation
 
-This Lotus demo application was built on the first place for an [Eurucamp workshop](http://activities.eurucamp.org/activities/12).
-It vendors the gems because the class may not have an internet connection.
-
-As today (_Jul 30, 2014_), Lotus doesn't have code generators, that's why the code structure looks like a gem.
-This repository shows how to develop an application starting from the pure business logic.
-Step by step it adds persistence and then the web application.
+This Hanami demo application was built on the first place for an [Eurucamp workshop](http://activities.eurucamp.org/activities/12).
 
 ## Contributing
 
@@ -66,4 +70,4 @@ Thanks to the [Pure](http://purecss.io) team for their framework and their [layo
 
 ## Copyright
 
-&copy; 2014 [Luca Guidi](http://lucaguidi.com) - Released under the MIT license.
+&copy; 2014 - 2016 [Luca Guidi](http://lucaguidi.com) - Released under the MIT license.

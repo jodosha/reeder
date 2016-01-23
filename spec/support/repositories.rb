@@ -1,7 +1,3 @@
-require 'reeder/migrator'
-
-Reeder::Migrator.migrate!
-
 Reeder::FeedRepository.class_eval do
   def self.count_by_url(url)
     query do

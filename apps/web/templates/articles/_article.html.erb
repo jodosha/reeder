@@ -1,5 +1,3 @@
-<% article = Reeder::ArticlePresenter.new(self.article) %>
-
 <section class="post" id="article-<%= article.id %>">
   <header class="post-header">
     <h2 class="post-title"><%= article.title %></h2>
@@ -9,5 +7,5 @@
     </p>
   </header>
 
-  <div class="post-description"><%= article.summary %></div>
+  <div class="post-description"><%= article.raw_summary %></div>
 </section>

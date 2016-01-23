@@ -1,8 +1,8 @@
-require 'lotus/repository'
+require 'hanami/repository'
 
 module Reeder
   class FeedRepository
-    include Lotus::Repository
+    include Hanami::Repository
 
     def self.persist(feed)
       if f = by_url(feed.url)

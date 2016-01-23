@@ -1,5 +1,9 @@
-require 'lotus/setup'
+require 'rubygems'
+require 'bundler/setup'
+require 'hanami/setup'
+require_relative '../lib/reeder'
+require_relative '../apps/web/application'
 
-ENV['RACK_ENV'] = ENV['LOTUS_ENV'] ||= 'development'
-require 'dotenv/deployment'
-require 'reeder'
+Hanami::Container.configure do
+  mount Web::Application, at: '/'
+end

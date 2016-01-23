@@ -1,6 +1,6 @@
-module Reeder::Controllers::Articles
+module Web::Controllers::Articles
   class Index
-    include Reeder::Action
+    include Web::Action
     expose :articles
 
     def call(params)

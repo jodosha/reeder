@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'reeder/commands/fetch'
 
-describe 'Fetch feed', :vcr do
+describe 'fetch feed', :vcr do
   before do
     @url     = 'http://thechangelog.com/feed/'
     @command = Reeder::Commands::Fetch.new(@url)

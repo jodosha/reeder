@@ -1,2 +1,4 @@
-.greenbar
-db/*.db
+/db/*.db
+/public/assets*
+/tmp
+.DS_Store

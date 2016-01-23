@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'features_helper'
 
-feature 'Visit Home', :vcr do
+feature 'visit homepage', :vcr do
   background do
     url = 'http://feeds2.feedburner.com/Rubyflow'
     repository = Reeder::FeedRepository

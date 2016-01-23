@@ -1,8 +1,8 @@
-require 'lotus/repository'
+require 'hanami/repository'
 
 module Reeder
   class ArticleRepository
-    include Lotus::Repository
+    include Hanami::Repository
 
     def self.persist(article)
       if f = by_guid(article.guid)

@@ -1,0 +1,4 @@
+architecture=container
+test=rspec
+template=erb
+engine=irb
